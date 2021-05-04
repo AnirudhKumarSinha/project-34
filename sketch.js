@@ -53,9 +53,9 @@ blocks.push(new Block(650,j))
 function draw() {
   background(backgroundImg);
 Engine.update(engine);
-textSize(20);
-text(mouseX,20,30);
-text(mouseY,100,30);
+//textSize(20);
+//text(mouseX,20,30);
+//text(mouseY,100,30);
 
 for (var i = 0; i < blocks.length; i++) {
      
